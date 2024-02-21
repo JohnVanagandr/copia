@@ -344,3 +344,24 @@ text-align: center;
 .card--border{
   border: solid 2px var(--color-primary);
 }
+
+
+/**-----------------------------------------------------
+-------------------TRABAJO------------------------------
+-----------------------------------------------------**/
+
+
+.contenedor_work{
+height: 100vh;
+background-color: #812181;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+grid-template-columns: auto;
+}
+.work_text{
+  flex: 1;
+}
+.work_img{
+  flex: 1;
+}
